@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.grupo5.interfacegp5.JavaFXController.MainController">
+    <children>
+      <ImageView blendMode="RED" fitHeight="409.0" fitWidth="615.0" layoutX="-14.0" layoutY="-8.0">
+         <image>
+            <Image url="@../../../../../../assets/backgroundmenu.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="ADD" fitHeight="218.0" fitWidth="243.0" layoutX="-6.0" layoutY="-8.0">
+         <image>
+            <Image url="@../../../../../../assets/designmenu.png" />
+         </image>
+      </ImageView>
+        <ImageView fitHeight="400.0" fitWidth="600.0" layoutX="260.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true" />
+        <Button layoutX="14.0" layoutY="338.0" mnemonicParsing="false" onAction="#exitButton" prefHeight="48.0" prefWidth="69.0" text="Sair">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Button>
+        <Button blendMode="HARD_LIGHT" layoutX="73.0" layoutY="136.0" mnemonicParsing="false" onAction="#admButton" prefHeight="48.0" prefWidth="455.0" style="-fx-background-color: #999999; -fx-border-color: #666666; -fx-border-width: 5;" text="Administrador">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Button>
+        <Label fx:id="Titulo" alignment="CENTER" contentDisplay="CENTER" layoutX="127.0" layoutY="69.0" prefHeight="17.0" prefWidth="347.0" text="Super Liga Europeia" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="22.0" />
+            </font>
+        </Label>
+      <Button blendMode="HARD_LIGHT" layoutX="73.0" layoutY="197.0" mnemonicParsing="false" onAction="#opButton" prefHeight="48.0" prefWidth="455.0" style="-fx-background-color: #999999; -fx-border-color: #666666; -fx-border-width: 5;" text="Operador">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button blendMode="HARD_LIGHT" layoutX="73.0" layoutY="257.0" mnemonicParsing="false" onAction="#MultButton" prefHeight="48.0" prefWidth="455.0" style="-fx-background-color: #999999; -fx-border-color: #666666; -fx-border-width: 5;" text="Milionário">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+    </children>
+</Pane>
